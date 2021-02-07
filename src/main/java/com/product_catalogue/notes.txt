@@ -1,0 +1,55 @@
+Open spring initialiser, add dependencies spring web, sql , dev-tools
+Generate project-> zip file -< extract and then open with IntelliJ
+
+
+Repository extends and add model and id type
+
+Data.sql in resources
+
+Microservice architecture
+How will you incorporate pants, socks, caps
+scalable
+Design pattern
+
+Jparepository, hibernate,
+
+destructor
+
+
+mvn clean install, man must have a setting file which downloads there dependencies from mvn repository
+mvn clean install -DskipTest skips running all tests
+
+
+Soap vs rest
+Spring data spa
+
+Jdbc -> language agnostic any db, jpa
+
+
+/////////// project overview
+
+1 shirts, pants, caps
+2 entity
+schema, interface (joins and other stuff)
+3 repository
+4 db
+4 service
+
+class category{
+    id, category_name
+}
+
+class product{
+    id, name, fk category_id
+}
+
+what does JPA do?
+
+body to entity mapping like shirt then what about default or other values
+primary key, foreign key
+save -> how to map for shirt only
+
+entity contains ony getters and setters so as to play with data once fetched from db
+
+hibernate db bakchodi, tables and mapping from entity
+hikari maintains thread pool for db connectivity and helps efficiency
